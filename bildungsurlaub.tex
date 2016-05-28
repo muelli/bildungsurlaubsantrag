@@ -2,8 +2,8 @@
 
 \usepackage[ngerman]{babel}
 %\usepackage[T1]{fontenc}
-\usepackage[EU1]{fontenc} % http://tex.stackexchange.com/a/28454/14470
-%\usepackage{fontspec}  % "With XeLaTeX, use the fontspec package instead of fontenc" - http://tex.stackexchange.com/questions/28450/xetex-%C3%9F-compiles-as-ss-german-umlauts-work
+%\usepackage[EU1]{fontenc} % http://tex.stackexchange.com/a/28454/14470
+\usepackage{fontspec}  % "With XeLaTeX, use the fontspec package instead of fontenc" - http://tex.stackexchange.com/questions/28450/xetex-%C3%9F-compiles-as-ss-german-umlauts-work
 
 %\usepackage{amssymb} % for \square
 %\usepackage{bbding}
@@ -14,6 +14,14 @@
 
 \usepackage{hyperref}
 
+%\usepackage{sectsty}  % Formatting the sections bold facing to make 
+                       % clear what has been in the original form
+
+%\allsectionsfont{\normalfont\sffamily\bfseries}
+%\allsectionsfont{\normalfont\bfseries}
+%\allsectionsfont{\bfseries}
+
+
 \newcommand{\thetitle}{Antrag
 %\title{Bar}
 
@@ -22,6 +30,9 @@ einer Weiterbildungsveranstaltung
 zur Bildungsfreistellung bzw. zum Bildungsurlaub}
 
 \newcommand{\raisedrule}[2][0em]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+
+
+
 
 \begin{document}
 %\maketitle
