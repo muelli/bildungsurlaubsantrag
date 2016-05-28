@@ -1,0 +1,218 @@
+\documentclass{scrartcl}
+
+\usepackage[ngerman]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[EU1]{fontenc} % http://tex.stackexchange.com/a/28454/14470
+%\usepackage{fontspec}  % "With XeLaTeX, use the fontspec package instead of fontenc" - http://tex.stackexchange.com/questions/28450/xetex-%C3%9F-compiles-as-ss-german-umlauts-work
+
+%\usepackage{amssymb} % for \square
+%\usepackage{bbding}
+\usepackage{wasysym}     % \Box and \CheckedBox
+\usepackage{eurosym}
+\usepackage{tabu}
+\usepackage{xspace}
+
+\usepackage{hyperref}
+
+\newcommand{\thetitle}{Antrag
+%\title{Bar}
+
+auf Anerkennung
+einer Weiterbildungsveranstaltung
+zur Bildungsfreistellung bzw. zum Bildungsurlaub}
+
+\newcommand{\raisedrule}[2][0em]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+
+\begin{document}
+%\maketitle
+\begin{Large}
+\hspace{.25\textwidth}\begin{minipage}{.75\textwidth}
+\begin{center}
+\thetitle
+\end{center}
+\end{minipage}
+\end{Large}
+\vspace{5ex}
+
+\section{Veranstalter}
+\begin{tabu} to 0.85\textwidth { X X }
+Name: &                              
+            LinuxTag e.V.
+            \\
+Anschrift mit PLZ: &
+            Berlin
+            \\
+Telefon und Fax (mit Vorwahl): &     
+            030-
+            \\
+E-Mail:                      &       
+            info@linuxtag.de
+            \\
+Ansprechperson:              &       
+            Tobias Mueller,
+            tobi@guadec.org,
+            +491633928710
+            \\
+Planen und führen \textbf{Sie} die Bildungsveranstaltung durch? & 
+    $\CheckedBox$ ja \vspace{5em} $\Box$ nein\\
+\end{tabu}
+
+\section{Bezeichnung der Veranstaltung (ggf. bitte mit erläuterndem Untertitel)}
+
+GUADEC (GNOME Users and Developers European Conference)
+
+      GNOME ist eine wichtige Komponente in freien Betriebssystemen (GNU/Linux),
+      wird als Freie und Open Source Software in der "Offentlichkeit von
+      Freiwilligen für die Allgemeinheit entwickelt.
+      Sowohl die Entwickler als auch interessierte Benutzer treffen sich seit
+      über 15 Jahren jährlich auf dieser Konferenz, die jedes Jahr in einem
+      anderen Land stattfindet\footnote{vgl. \url{https://wiki.gnome.org/GUADEC/}}.
+      Es geht sowohl um technische Aspekte der Software als auch um die
+      politische Dimension Freier Software und deren Einfluss auf unsere
+      Gesellschaft.
+
+\section{Veranstaltungstermin}
+
+von
+\hspace{5em}
+%
+2016-08-11
+%
+\hspace{5em}
+bis
+\hspace{5em}
+%
+2016-08-17\xspace
+.
+
+Die Veranstaltung soll wiederholt stattfinden:
+
+$\Box$
+ja
+
+$\CheckedBox$
+nein
+
+Die Konferenz wird auch n"achstes Jahr stattfinden,
+aber wir beantragen lediglich die Anerkennung f"ur dieses Jahr.
+
+\section{Veranstaltungsort}
+\begin{tabu} to  0.95\textwidth { X X[2] }
+Anschrift mit PLZ:               &
+    Karlsruhe Insititute of Technology~(KIT), Kaiserstraße 12, 76131 Karlsruhe
+    \\
+Telefon und Fax (mit Vorwahl):   &
+    +491633928710\\
+\end{tabu}
+
+
+
+\section{Erst- oder Wiederholungsantrag}
+Dies ist ein
+
+\begin{enumerate}
+\item[a)] $\Box$  Erstantrag
+
+\item[b)] $\Box$  Wiederholungsantrag
+
+          \begin{tabu} to \textwidth {X X}
+          Aktenzeichen:      &       \\
+          Es liegen wesentliche Änderungen gegen"uber dem Erstantrag vor,
+            und zwar:   &   $\Box$ keine \\
+            
+          \end{tabu}
+
+\item[c)]
+
+    Die geplante Veranstaltung ist bereits anerkannt in folgenden 
+    Ländern (bitte Bescheide beifügen):
+
+    keine
+
+\end{enumerate}
+
+
+\section{Programm}
+Das vollständige Programm%
+\footnote{Diese Unterlagen/Angaben sind grundsätzlich beizufügen (Ausnahme Wiederholungsanträge)}
+ist beigefügt. Aus ihm ist insbesondere ersichtlich
+\begin{itemize}
+\item das Lernziel der Veranstaltung
+\item die Themen und Inhalte der einzelnen Unterrichtseinheiten
+\item die detaillierte zeitliche und didaktisch-methodische Arbeitsplanung
+\end{itemize}
+
+\subsection{Welchem Bereich der Weiterbildung ordnen Sie die Veranstaltung zu?}
+
+politische- und berufliche Bildung
+
+%~\raisedrule{1pt}
+
+%~\raisedrule{1pt}
+
+\subsection{%
+Die Veranstaltung ist keinem geschlossenen bereits vorab bekannten 
+Personenkreis vorbehalten}
+
+$\CheckedBox$ ja
+\hspace{10em}
+$\Box$ nein (bitte begründen)
+
+
+
+\subsection{%
+Angaben über die fachliche und pädagogische Qualifikation der Kursleitung und des
+Lehrpersonals}
+
+
+Sie finden anbei das Programm von letztem Jahr.
+Dieses Jahr wird dem letzten Programm ähnlich sein, nur mit aktualisierten
+
+\section{Teilnehmende}
+\begin{tabu} to .95\textwidth {X X}
+Vorgesehene Zahl der Teilnehmenden:     &  300  \\
+Teilnahmeentgelt je Person:             &  \EUR{0} (Student) bis \EUR{150} (Professional), je nach Ticket
+\end{tabu}
+
+\section{Ist die Veranstaltung allgemein zugänglich?}
+$\CheckedBox$ ja
+\hspace{10em}
+$\Box$ nein, Zielgruppen: \raisedrule{1pt}
+
+\section{Wie wird die Veranstaltung öffentlich bekannt gemacht? (Bitte Unterlagen beifügen)}
+Im Web auf \url{http://www.guadec.org} und \url{http://www.gnome.org}.
+
+\section{Sind Sie mit der Veröffentlichung der Veranstaltung nach der Anerkennung durch
+die Behörde einverstanden?}
+$\CheckedBox $ja
+\hspace{10em}
+$\CheckedBox$ nein
+
+\iffalse
+\section{Geb"uhren}
+Gilt für Länder mit Gebührenerhebung (z. Z. Hamburg und Sachsen-Anhalt):
+Die Gebühr in Höhe von \EUR{0} wurde überwiesen an
+\fi
+
+\section{Versicherung}
+
+Die vorstehenden Angaben sind richtig und vollständig. Nach 
+Antragstellung eintretende Veränderungen werden unverzüglich mitgeteilt. 
+Die Bildungsveranstaltung dient weder unmittelbar der Durchsetzung 
+politischer Ziele noch ausschließlich betrieblichen oder dienstlichen 
+Zwecken. Die Ziele des Veranstalters und der Inhalt der 
+Bildungsveranstaltung stehen mit der freiheitlich demokratischen 
+Grundordnung i. S. des Grundgesetzes für die Bundesrepublik Deutschland 
+in Einklang.
+
+Die Leitung der Veranstaltung ist einer Person unterstellt, die den 
+Teilnehmenden namentlich bekannt ist.
+
+\vspace{10ex}
+
+~\raisedrule{1pt}
+
+Ort, Datum, rechtsverbindliche Unterschrift
+
+\end{document}
+
